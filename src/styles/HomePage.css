@@ -1,0 +1,93 @@
+/* Hero Section */
+.homepage-hero {
+    height: 100vh;
+    background: url('../assets/banner.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.homepage-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.homepage-hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.homepage-hero button {
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.homepage-hero button:hover {
+    background-color: #16a085;
+    transform: scale(1.1);
+}
+
+/* Features Section */
+.homepage-features {
+    padding: 4rem 1rem;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.homepage-features h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.features-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.feature-item {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    width: 300px;
+    text-align: center;
+}
+
+.feature-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #1abc9c;
+}
+
+.feature-item p {
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+/* Ensure the banner image is styled well */
+.banner-section {
+	width: 100%;
+	height: 500px; /* Adjust height as needed */
+	overflow: hidden;
+  }
+  
+  .banner-image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover; /* Makes sure the image covers the container area */
+}
