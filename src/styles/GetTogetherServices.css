@@ -1,0 +1,52 @@
+.get-together-services {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.get-together-services h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.category-tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.category-tabs button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.category-tabs button.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-list, .cart {
+    width: 48%;
+}
+
+.service-list h2, .cart h2 {
+    margin-bottom: 15px;
+}
+
+.cart {
+    border-left: 2px solid #f0f0f0;
+    padding-left: 20px;
+}
+
+.cart p {
+    text-align: center;
+    color: #888;
+}
