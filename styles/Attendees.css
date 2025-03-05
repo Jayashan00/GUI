@@ -1,0 +1,75 @@
+/* Ensure full width */
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+}
+
+.attendees-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+/* Make table responsive */
+.attendees-table-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.attendees-table {
+    width: 90%;
+    max-width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Header */
+.attendees-table thead {
+    background: #343a40;
+    color: white;
+    text-align: left;
+}
+
+/* Table Cells */
+.attendees-table th, .attendees-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+/* Attendee Image */
+.attendees-table img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/* Buttons */
+button {
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.edit-btn { background-color: #007bff; color: white; }
+.delete-btn { background-color: #dc3545; color: white; }
+.restore-btn { background-color: #28a745; color: white; }
+
+.edit-btn:hover { background-color: #0056b3; }
+.delete-btn:hover { background-color: #c82333; }
+.restore-btn:hover { background-color: #218838; }

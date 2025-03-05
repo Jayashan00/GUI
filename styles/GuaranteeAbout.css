@@ -1,0 +1,124 @@
+/* Scoped Styles for GuaranteeAbout Page */
+.guarantee-about-page {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Hero Section */
+.ga-hero-section {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #333; /* Dark text for better contrast with white overlay */
+    position: relative;
+}
+
+.ga-hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.7); /* White overlay with 70% opacity */
+}
+
+.ga-hero-content {
+    position: relative;
+    z-index: 1;
+}
+
+.ga-hero-content h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #444; /* Darker text for better readability */
+}
+
+.ga-hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    color: #555; /* Slightly lighter text for contrast */
+}
+
+.ga-cta-button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #ff6f61;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.ga-cta-button:hover {
+    background-color: #ff4a3d;
+}
+
+/* Section Styles */
+.ga-section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.ga-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.ga-section p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #555;
+}
+
+/* Events Grid */
+.ga-event-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.ga-event-card {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    padding: 20px;
+    color: white; /* White font color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Stronger shadow for better readability */
+    transition: transform 0.3s ease;
+}
+
+.ga-event-card:hover {
+    transform: scale(1.05);
+}
+
+.ga-event-content {
+    position: relative;
+    z-index: 1;
+}
+
+.ga-event-content h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: white; /* Ensure heading is white */
+}
+
+.ga-event-content p {
+    font-size: 1rem;
+    color: white; /* Ensure paragraph text is white */
+}

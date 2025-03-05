@@ -1,0 +1,16 @@
+/* src/styles/ServiceList.css */
+.service-list {
+    padding: 20px;
+}
+
+.service-list h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
